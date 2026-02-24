@@ -29,7 +29,7 @@ const ExpItem = ({ exp, index, scrollYProgress }) => {
   const scale = useTransform(scrollYProgress, [start, end], [0.95, 1]);
 
   return (
-   <div className="relative flex items-start gap-6 md:gap-12 py-8 md:py-10">
+   <div className="relative flex items-start gap-2 md:gap-12 py-8 mr-1.5 md:py-10">
       
       {/* Timeline Axis */}
       <div className="relative w-10 flex justify-center">
@@ -108,7 +108,7 @@ useEffect(()=>{
           EXPERIENCE
         </h1>
         <p className=" text-[15px] font-serif text-center mb-6">
-          Early in experience. Strong in skills. Focused on growth
+          Early in experience. Strong in skills
         </p>
 
         {/* Timeline */}

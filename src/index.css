@@ -307,12 +307,12 @@ h1 {
 
   .marquee {
     top: 22%;
-    height: 20%;
+    height: 18%;
   }
 
   .marquee h1 {
-    font-size: 8rem;
-    margin-top: -5px;
+    font-size: 7rem;
+    
     animation: anim 8s linear infinite;
   }
 
@@ -338,7 +338,7 @@ h1 {
 
   .floating-navbar {
     bottom: calc(12px + env(safe-area-inset-bottom));
-    width: 75vw;
+    width: 80vw;
     justify-content: center;
     position: fixed;
     gap: 5px;
@@ -392,8 +392,7 @@ h1 {
 
   /* Headings */
   h1 {
-    word-break: break-word;
-  }
+font-size: 4.9rem;  }
 }
 
 
@@ -604,9 +603,10 @@ h1 {
 /* Contact Section */
 @media (max-width: 768px) {
   #contact h1 {
-    font-size: 5rem;
-    top: 1rem !important;
+    font-size: 4.8rem;
+    /* top: 1rem !important; */
     height: 100vh;
+    margin-top: -20px;
   }
 
   #contact .flex.gap-90 {
@@ -614,6 +614,7 @@ h1 {
     gap: 2rem !important;
     padding: 2rem 1rem;
     padding-top: 15rem;
+    margin-top: -78px;
   }
 
   #contact .max-w-xl {

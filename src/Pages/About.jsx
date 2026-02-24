@@ -37,7 +37,7 @@ useEffect(()=>{
       </div>
 
       {/* Content */}
-      <div className="flex flex-col md:flex-row items-center justify-center gap-10 max-w-6xl mx-auto">
+      <div className="flex flex-col md:flex-row items-center justify-center gap-5 max-w-6xl mx-auto">
 {/* Image Card */}
 <div className="perspective flex-shrink-0">
   <div

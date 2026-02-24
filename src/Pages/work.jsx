@@ -7,35 +7,35 @@ import { ScrollTrigger } from "gsap/all";
 
 const Work = () => {
 
-useEffect(() => {
-  gsap.registerPlugin(ScrollTrigger);
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
 
-  const ctx = gsap.context(() => {
-    gsap.from(".heading", {
-      opacity: 0,
-      scale: 0.9,
-      duration: 0.9,
-      ease: "power2.out",
-      scrollTrigger: {
-        trigger: "#work",
-        start: "top 75%",
-        once: true,
-        toggleActions:"restart none none none"
-      },
+    const ctx = gsap.context(() => {
+      gsap.from(".heading", {
+        opacity: 0,
+        scale: 0.9,
+        duration: 0.9,
+        ease: "power2.out",
+        scrollTrigger: {
+          trigger: "#work",
+          start: "top 75%",
+          once: true,
+          toggleActions: "restart none none none"
+        },
+      });
     });
-  });
 
-  return () => ctx.revert();
-}, []);
+    return () => ctx.revert();
+  }, []);
 
 
 
 
   return (
     <section
-  id="work"
-  className="w-full min-h-screen bg-[#5F9598] flex flex-col items-center px-2.4"
->
+      id="work"
+      className="w-full min-h-screen bg-[#5F9598] flex flex-col items-center px-2.4"
+    >
 
       <h1 className="heading text-8xl font-extrabold text-center mt-10">WORK</h1>
       <p className="text-[15px] font-serif text-center mb-10">
@@ -72,14 +72,25 @@ useEffect(() => {
             REACT · NODE · EXPRESS · MONGODB · RAZORPAY · THREEJS · GSAP · SOCKET.IO
           </p>
 
-          <div className="flex gap-4 text-4xl text-black ">
-            <a href="https://github.com/ShekharGTayde/yatrii" target="_blank">
+          <div className="flex gap-4 text-4xl text-black mt-2">
+            <a
+              href="https://github.com/ShekharGTayde/yatrii"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="ri-github-fill"></i>
             </a>
-            <a href="#" target="_blank">
+
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="ri-links-fill"></i>
             </a>
           </div>
+
+
         </div>
       </div>
 
