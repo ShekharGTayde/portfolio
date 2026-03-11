@@ -1,87 +1,100 @@
-# My Portfolio
+# My Portfolio Website
 
-This repository holds my personal portfolio website, built with **Vite** and **React**. The project showcases my skills, experience, education, and some of my work in a clean and responsive layout.
+A modern, responsive personal portfolio built with **React + Vite** and styled using **Tailwind CSS**. It highlights my skills, experience, and projects with smooth UI interactions and animations.
 
-## 🚀 Getting Started
+## Live Demo
+- Website: **<https://shekhartayde.online>**
 
-These instructions will help you set up the project locally for development and testing.
-
-### Prerequisites
-
-Make sure you have the following installed on your machine:
-
-- Node.js (v14 or newer)
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd my-portfolio2
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   # or yarn install
-   ```
-3. Start the development server:
-   ```bash
-   npm run dev
-   # or yarn dev
-   ```
-4. Open http://localhost:5173 (or the displayed address) in your browser.
-
-## 🧩 Project Structure
-
-```
-my-portfolio2/
-├── public/              # static assets served directly
-├── src/                 # application source code
-│   ├── assets/          # images, animations, etc.
-│   ├── Components/      # reusable React components
-│   └── Pages/           # individual page components
-├── index.html           # HTML entry point
-├── package.json         # project metadata and scripts
-├── vite.config.js       # Vite configuration
-└── README.md            # project documentation
-```
-
-## ⚙️ Available Scripts
-
-- `npm run dev` - start development server
-- `npm run build` - bundle the app for production
-- `npm run preview` - locally preview production build
-
-## 🛠 Technologies Used
-
-- React
-- Vite
-- CSS (you can mention Tailwind or other frameworks if used)
-
-## 📄 Pages
-
-- Home
-- About
+## Overview
+This portfolio is designed as a clean, fast, and mobile-friendly site to showcase:
+- About / Profile
 - Skills
-- Education
+- Projects
 - Experience
-- Projects/Work
+- Education
 - Certifications
 - Contact
 
-## 💡 Customization
+## Features
+- Responsive, mobile-first layout
+- Smooth animations and transitions (**GSAP**, **Framer Motion**)
+- Reusable component-based structure
+- Fast development and production builds via **Vite**
+- Clean, maintainable styling with **Tailwind CSS**
 
-Feel free to replace content, add more components, or modify styles to suit your personal branding and needs.
+## Tech Stack
+- **Frontend:** React
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **Animation:** GSAP, Framer Motion
+- **Icons:** Lucide React, React Icons, Remix Icon
 
-## 📦 Deployment
+## Getting Started
 
-You can deploy the built site to any static hosting provider such as GitHub Pages, Netlify, Vercel, etc. Just run `npm run build` and follow the host's instructions.
+### Prerequisites
+- Node.js **v14+**
+- npm or yarn
 
-## 📞 Contact
+### Installation & Run Locally
+```bash
+# Clone the repository
+git clone https://github.com/ShekharGTayde/portfolio.git
 
-Include your email or social links here for visitors to reach out.
+# Move into the project directory
+cd my-portfolio2
 
----
+# Install dependencies
+npm install
 
-Thanks for checking out my portfolio! ✨
+# Start the development server
+npm run dev
+```
+
+Open the URL shown in your terminal (commonly `http://localhost:5173`).
+
+## Scripts
+```bash
+npm run dev      # Start dev server
+npm run build    # Build for production
+npm run preview  # Preview production build locally
+npm run lint     # Run ESLint
+```
+
+## Project Structure
+```text
+my-portfolio2/
+├─ public/           # static assets
+├─ src/              # application source
+│  ├─ assets/        # images, animations, etc.
+│  ├─ Components/    # reusable React components
+│  └─ Pages/         # page/section components
+├─ index.html
+├─ package.json
+├─ vite.config.js
+└─ README.md
+```
+
+## Deployment
+Build the project:
+```bash
+npm run build
+```
+
+Deploy the output (usually `dist/`) to any static hosting provider:
+- GitHub Pages
+- Netlify
+- Vercel
+
+## Customization
+1. Update text/content in `src/Pages/` (sections).
+2. Replace images and media in `src/assets/`.
+3. Adjust theme, spacing, and colors using Tailwind utilities.
+
+## Contact
+- Name: **Shekhar G. Tayde**
+- Email: **<shekhartayde410@gmail.com>**
+- LinkedIn: **<https://www.linkedin.com/in/shekhar-tayade/>**
+- GitHub: **https://github.com/ShekharGTayde**
+
+## License
+This project is build by shekhar tayde. If you reuse the design, please provide attribution.
