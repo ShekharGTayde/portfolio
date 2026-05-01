@@ -495,12 +495,6 @@ font-size: 4.9rem;  }
 }
 
 
-/* Work Section */
-#work .relative:nth-child(n+6) {
-  display: none;
-
-}
-
 /* Work Card Links - Fix visibility */
 #work .flex.gap-4.text-4xl {
   position: relative;

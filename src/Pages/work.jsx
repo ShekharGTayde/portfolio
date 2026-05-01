@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import rideIcon from "../assets/rideIcon.png";
+import samajh from "../assets/samajh.png";
+import farmX from "../assets/farmX.png";
 import AppleWeb from "../assets/AppleWeb.png";
 import LailaIcon from "../assets/LailaIcon.png";
 import gsap from "gsap";
@@ -43,6 +45,8 @@ const Work = () => {
       </p>
 
 
+
+
       {/* yatrii Card */}
       <div className="relative  max-w-6xl w-[80%] h-100 mx-auto rounded-3xl bg-[#F3F4F4] shadow-xl
        border-gray-200 mb-12 flex overflow-visible">
@@ -82,6 +86,59 @@ const Work = () => {
             </a>
 
             <a
+              href="https://yatrii-1.onrender.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="ri-links-fill"></i>
+            </a>
+          </div>
+
+
+        </div>
+      </div>
+
+
+
+      {/* samajh Card */}
+      <div className="relative  max-w-6xl w-[80%] h-100 mx-auto rounded-3xl bg-[#F3F4F4] shadow-xl
+       border-gray-200 mb-12 flex overflow-visible">
+
+        {/* Floating Image */}
+        <div className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-14 ">
+          <img
+            src={samajh}
+            alt="SAMAJH App"
+            className="w-64 rounded-2xl shadow-lg"
+          />
+        </div>
+
+        {/* Content */}
+        <div className="ml-64 p-8 flex flex-col justify-center shadow-lg">
+          <h2 className="text-4xl font-extrabold mb-2">SAMAJH-AI</h2>
+
+          <ul className="text-gray-600 text-base space-y-2 mb-4 list-disc">
+            <li>Built the backend for this hackathon group project to simplify complex loan agreements into plain, user-friendly language using AI.</li>
+            <li>Detected hidden clauses, risks, and unfair terms in contracts.</li>
+            <li>Extracted key details like interest rate, EMI, tenure, and penalties.</li>
+            <li>Performed affordability checks to assess user’s repayment capacity.</li>
+            <li>Included interactive Q&A and quizzes to test user understanding of agreements.</li>
+          </ul>
+
+          <p className="text-lg font-semibold text-gray-700 mb-4">
+            REACT · NODE · EXPRESS · MONGODB · NLP(Text Processing) · OCR · RANDOM FOREST
+          </p>
+
+          <div className="flex gap-4 text-4xl text-black mt-2">
+            <a
+              href="https://github.com/ShekharGTayde/Samajh"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="ri-github-fill"></i>
+            </a>
+
+            <a
               href="#"
               target="_blank"
               rel="noopener noreferrer"
@@ -95,6 +152,56 @@ const Work = () => {
       </div>
 
 
+
+      {/* farmX Card */}
+      <div className="relative  max-w-6xl w-[80%] h-100 mx-auto rounded-3xl bg-[#F3F4F4] shadow-xl
+       border-gray-200 mb-12 flex overflow-visible">
+
+        {/* Floating Image */}
+        <div className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-14 ">
+          <img
+            src={farmX}
+            alt="FARMX App"
+            className="w-64 rounded-2xl shadow-lg"
+          />
+        </div>
+
+        {/* Content */}
+        <div className="ml-64 p-8 flex flex-col justify-center shadow-lg">
+          <h2 className="text-4xl font-extrabold mb-2">FARMX </h2>
+
+          <ul className="text-gray-600 text-base space-y-2 mb-4 list-disc">
+            <li>Built the backend for this hackathon group project to recommend optimal crops based on soil, weather, and environmental data.</li>
+            <li>Integrated real-time weather and market price APIs for data-driven decisions.</li>
+            <li>Predicted crop yield and disease risks using machine learning models.</li>
+            <li>Enabled data visualization dashboard for farm analytics and trends.</li>
+          </ul>
+
+          <p className="text-lg font-semibold text-gray-700 mb-4">
+            REACT · NODE · EXPRESS · MONGODB · RANDOM FOREST · REST API's 
+          </p>
+
+          <div className="flex gap-4 text-4xl text-black mt-2">
+            <a
+              href="https://github.com/saurabh7121/Cycloastra"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="ri-github-fill"></i>
+            </a>
+
+            <a
+              href="https://yatrii-1.onrender.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="ri-links-fill"></i>
+            </a>
+          </div>
+
+
+        </div>
+      </div>
 
 
       {/* Apple Clone Card */}
